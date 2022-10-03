@@ -1,13 +1,13 @@
 # BI Model for E-Commerce - Dashboard
 
-## Latar Belakang
+## **Latar Belakang**
 Sebagai early stage startup yang bergerak di bidang retail, Pacmano d’e-comercio memiliki visi menjadi one-stop shopping marketplace terbesar di Amerika Selatan, dan untuk mewujudkan visi tersebut, perusahaan memiliki misi tumbuh bersama dengan mitra, mengedepankan tingkat pelayanan yang konsisten dan terpercaya bagi semua pelanggan, dan menjual semua barang kebutuhan sehari-hari dengan harga yang paling terjangkau dan kualitas nomor satu. 
 
 Namun, sejak awal berdirinya Pacmano di 2015, perusahaan baru memiliki sistem ERP di tahun 2016, sehingga semua data terkait penjualan, pelanggan dan mitra baru terekam di pertengahan tahun 2016. Saat ini, tim management perlu mempersiapkan langkah apa saja yang harus dilakukan untuk meningkatkan akuisisi mitra & pelanggan, dan juga memaksimalkan penjualan. Untuk itu, tim management dan semua departemen terkait membutuhkan suatu metrik yang dapat memberikan insight dan penggambaran terkait kondisi dan perkembangan di tiap departemen dalam kaitannya dengan performance/ key result perusahaan Pacmano d’e-comercio. 
 
 Perkembangan pesat yang terjadi pada perusahaan Pacmano d’e-comercio menyebabkan aliran informasi berupa data-data krusial menjadi sulit diinterpretasikan oleh tim manajemen dan lintas departemen secara cepat dan mudah. Untuk itu, diperlukan suatu dashboard untuk dijadikan sebagai SSOT yang akan membantu tim manajemen dan departemen terkait untuk mendapatkan insight dari metrik-metrik bisnis, yang berguna untuk menentukan kebijakan dan arah perusahaan.
 
-## Objectives
+## **Objectives**
 Project ini ditujukan untuk menentukan metrik-metrik bisnis yang dibutuhkan oleh C-Level, Departemen Sales & Operations, Departemen Pemasaran dan Departemen Business Development, dan menampilkan metrik-metrik tersebut ke dalam sebuah dashboard SSOT. 
 
 Pada Dashboard Executive Summary, project ini bertujuan untuk menampilkan informasi berupa overview aspek bisnis perusahaan, yang ditujukan khususnya untuk C-Level Management.
@@ -18,7 +18,7 @@ Pada Dashboard Marketing, project ini bertujuan untuk menampilkan data harian pe
 
 Pada Dashboard Business Development, project ini bertujuan untuk menampilkan data pengembangan bisnis berupa fitur yang mendukung keberlangsungan bisnis, seperti conversion rate berdasarkan A/B Testing.
 
-## Process Overview
+## **Process Overview**
 a. Penyusunan PRD
 Pada awal project, dilakukan penyusunan PRD untuk menentukan tujuan, scope, fitur, timeline, perkiraan user flow dan HiFi Dashboard Mockup. Dokumen lengkap PRD dapat diakses di [**link**](https://docs.google.com/document/d/10blzS2O8wq901DAAHNKbEMb3MM3TlxmRgJRpjE0wuPc/edit?usp=sharing) tersebut. Pada PRD, dirancang perkiraan user flow pada produk yang akan dibuat
 
@@ -75,25 +75,59 @@ Dari ketiga dataset tersebut, maka diputuskan akan dibuat sebuah Dashboard SSOT,
     
       Metrik ini menunjukan jumlah customer yang aktif rata-rata setiap bulan berdasarkan customer yang melakukan visit website.
     - Recommendation product by segmentation
-Menampilkan produk yang menjadi rekomendasi produk berdasarkan segmentasi customer.
-Most ordered product by quarterly/seasonal
-Menampilkan jumlah produk yang paling banyak dibeli dalam waktu setiap kuartal.
-Average conversion rate per campaign
-Metrik ini menunjukan rata-rata konversi setiap campaign yang dijalankan secara terpisah.
-Most purchased product by segmentation
-Menampilkan produk yang paling banyak dibeli berdasarkan segmentasi customer.
-RFM Indicator
-Metrik untuk mengetahui rata-rata RFM score berdasarkan segmentasi customer.
-RFM Segmentation
-Metrik untuk mengetahui segmentasi dari masing-masing customer menggunakan RFM Segmentation.
-A/B Testing Dashboard
-Menampilkan Business Metrics sebagai berikut:
-Ringkasan Hasil Uji
-Ditampilkan ringkasan apakah uji hipotesis ini gagal tolak atau ditolak. Diberikan juga alasan dari hasil uji tersebut dengan data p-value dan power. Tidak lupa memberikan rekomendasi bisnis untuk AB Testing team.
-Total Converted, Conversion Rate dan Visit
-Metrics ini digunakan untuk mengetahui jumlah conversi, conversion rate dan jumlah visit pada masing - masing landing page
-Daily p-value dan power
-Menampilkan insight dari nila p-value dan power yang diperoleh per hari untuk dijadikan pedoman akan keberlangsungan dari eksperimen. Selain itu ditampilkan pada MDE berapa power minimal dapat dicapai pada eksperimen.
+    
+      Menampilkan produk yang menjadi rekomendasi produk berdasarkan segmentasi customer.
+    - Most ordered product by quarterly/seasonal
+    
+      Menampilkan jumlah produk yang paling banyak dibeli dalam waktu setiap kuartal.
+    - Average conversion rate per campaign
+    
+      Metrik ini menunjukan rata-rata konversi setiap campaign yang dijalankan secara terpisah.
+    - Most purchased product by segmentation
+    
+      Menampilkan produk yang paling banyak dibeli berdasarkan segmentasi customer.
+    - RFM Indicator
+    
+      Metrik untuk mengetahui rata-rata RFM score berdasarkan segmentasi customer.
+    - RFM Segmentation
+      
+      Metrik untuk mengetahui segmentasi dari masing-masing customer menggunakan RFM Segmentation.
+  - A/B Testing Dashboard
+  
+    Menampilkan Business Metrics sebagai berikut:
+    - Ringkasan Hasil Uji
+    
+      Ditampilkan ringkasan apakah uji hipotesis ini gagal tolak atau ditolak. Diberikan juga alasan dari hasil uji tersebut dengan data p-value dan power. Tidak lupa memberikan rekomendasi bisnis untuk AB Testing team.
+    - Total Converted, Conversion Rate dan Visit
+    
+      Metrics ini digunakan untuk mengetahui jumlah conversi, conversion rate dan jumlah visit pada masing - masing landing page
+    - Daily p-value dan power
+    
+      Menampilkan insight dari nila p-value dan power yang diperoleh per hari untuk dijadikan pedoman akan keberlangsungan dari eksperimen. Selain itu ditampilkan pada MDE berapa power minimal dapat dicapai pada eksperimen.
+      
+## **MVP Demonstration**
+Tampilan Dashboard berupa MVP (Minimum Viable Product) untuk di-launch ke user pada tiap departemen terkait. Dashboard terdiri dari 5 halaman. Halaman pertama ada homepage.               
+![Main](https://user-images.githubusercontent.com/102605912/193509746-3fbfb612-c456-42f7-9a79-6115d2f6bad1.png)
+Berupa menu utama/ homepage, yang berisi pilihan halaman dashboard yang ingin dilihat, cara menggunakan dashboard, dan overview/ penjelasan umum terkait insight/ informasi yang dapat dilihat di tiap dashboard departemen.
+Dan untuk tampilan dashboard lainnya dapat dilihat lebih lengkapnya di [**link**](https://public.tableau.com/views/E-CommerceProject-GroupN-PLBI2/Main?:language=en-GB&:display_count=n&:origin=viz_share_link) ini.
+
+## **Analisis dan Kesimpulan**
+Dashboard ini dapat membantu 4 stakeholder sekaligus dalam mendapatkan insight untuk mengambil keputusan untuk menjalankan kebijakan-kebijakan perusahaan berikutnya, dalam hal ini akan dijelaskan untuk masing-masing bagian sebagai berikut:
+
+#### Dashboard Executive Summary
+Board of Director ingin mengetahui kondisi perusahaan untuk menentukan arah kebijakan perusahaan selanjutnya, dengan melihat executive summary dashboard dalam menentukan lokasi-lokasi mana lagi yang ingin ditingkatkan dan berapa pencapaian target yang telah didapatkan oleh perusahaan, Board of Director menjadi dapat mengetahui kondisi perusahaan dan menentukan arah kebijakan berikutnya.
+
+#### Dashboard Sales
+Divisi marketing ingin mengetahui masing-masing pencapaian target penjualan di masing-masing wilayah dan mengetahui kepuasan dengan melihat rating yang diberikan oleh pelanggan.
+
+#### Dashboard Marketing
+Divisi marketing ingin mengetahui campaign apa yang paling memberikan kontribusi terhadap penjualan dan ingin melakukan segmentasi kepada customer.
+
+#### Dashboard Business Development
+Divisi business development ingin mengetahui perubahan dari tampilan website dengan melakukan A/B testing berdampak terhadap customer seperti apa, apakah perlu penyegaran terhadap tampilan website, atau tidak perlu dan sudah cukup dengan kondisi website saat ini.
+
+Kesimpulan dari Dashboard Pacmano d’Ecomercio ini dapat menjawab kebutuhan dari masing-masing stakeholder terkait dengan ekspektasi atau harapan yang diinginkan dengan insight yang didapatkan oleh masing-masing divisi.
+
 
 
 
