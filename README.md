@@ -1,11 +1,11 @@
 # BI Model for E-Commerce - Dashboard
 
-## **Latar Belakang**
-Sebagai early stage startup yang bergerak di bidang retail, Pacmano d’e-comercio memiliki visi menjadi one-stop shopping marketplace terbesar di Amerika Selatan, dan untuk mewujudkan visi tersebut, perusahaan memiliki misi tumbuh bersama dengan mitra, mengedepankan tingkat pelayanan yang konsisten dan terpercaya bagi semua pelanggan, dan menjual semua barang kebutuhan sehari-hari dengan harga yang paling terjangkau dan kualitas nomor satu. 
+## **Background**
+Kami adalah team Business Intelligence di sebuah early-startup yang bernama SEMBAKOKU. Bergerak di bidang retail grocery untuk kebutuhan sehari-hari yang memiliki visi menjadi one-stop shopping marketplace terbesar di Brazil. Demi mewujudkan visi tersebut, perusahaan memiliki misi tumbuh bersama dengan mitra, mengedepankan tingkat pelayanan yang konsisten dan terpercaya serta menjual produk dengan harga yang terjangkau dan kualitas nomor satu.
 
-Namun, sejak awal berdirinya Pacmano di 2015, perusahaan baru memiliki sistem ERP di tahun 2016, sehingga semua data terkait penjualan, pelanggan dan mitra baru terekam di pertengahan tahun 2016. Saat ini, tim management perlu mempersiapkan langkah apa saja yang harus dilakukan untuk meningkatkan akuisisi mitra & pelanggan, dan juga memaksimalkan penjualan. Untuk itu, tim management dan semua departemen terkait membutuhkan suatu metrik yang dapat memberikan insight dan penggambaran terkait kondisi dan perkembangan di tiap departemen dalam kaitannya dengan performance/ key result perusahaan Pacmano d’e-comercio. 
+Namun, sejak awal berdirinya SEMBAKOKU di 2015, perusahaan baru memiliki sistem ERP di tahun 2016 sehingga semua data terkait penjualan, pelanggan dan mitra, baru terekam di pertengahan tahun 2016. Saat ini, tim management perlu mempersiapkan langkah apa saja yang harus dilakukan untuk meningkatkan akuisisi mitra & pelanggan serta memaksimalkan penjualan. 
 
-Perkembangan pesat yang terjadi pada perusahaan Pacmano d’e-comercio menyebabkan aliran informasi berupa data-data krusial menjadi sulit diinterpretasikan oleh tim manajemen dan lintas departemen secara cepat dan mudah. Untuk itu, diperlukan suatu dashboard untuk dijadikan sebagai SSOT yang akan membantu tim manajemen dan departemen terkait untuk mendapatkan insight dari metrik-metrik bisnis, yang berguna untuk menentukan kebijakan dan arah perusahaan.
+Perkembangan pesat yang terjadi pada perusahaan SEMBAKOKU menyebabkan aliran informasi berupa data-data krusial menjadi sulit diinterpretasikan oleh tim manajemen dan lintas departemen secara cepat dan mudah. Diperlukan suatu dashboard SSOT yang akan membantu tim manajemen dan departemen terkait mendapatkan insight dari metrik-metrik bisnis yang berguna untuk menentukan kebijakan dan arah perusahaan.
 
 ## **Objectives**
 Project ini ditujukan untuk menentukan metrik-metrik bisnis yang dibutuhkan oleh C-Level, Departemen Sales & Operations, Departemen Pemasaran dan Departemen Business Development, dan menampilkan metrik-metrik tersebut ke dalam sebuah dashboard SSOT. 
